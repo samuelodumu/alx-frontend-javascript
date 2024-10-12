@@ -1,20 +1,20 @@
 interface Student {
-    firstname: string,
-    lastname: string,
+    firstName: string,
+    lastName: string,
     age: number,
     location: string
 }
 
 const student1: Student = {
-    firstname: "Xaden",
-    lastname: "Riorson",
+    firstName: "Xaden",
+    lastName: "Riorson",
     age: 25,
     location: "Basgiath war college"
 }
 
 const student2: Student = {
-    firstname: "Violet",
-    lastname: "Sorrengail",
+    firstName: "Violet",
+    lastName: "Sorrengail",
     age: 19,
     location: "Basgiath war college"
 }
@@ -28,7 +28,7 @@ studentList.forEach((student) => {
     const firstname = row.insertCell(0);
     const location = row.insertCell(1);
 
-    firstname.textContent = student.firstname;
+    firstname.textContent = student.firstName;
     location.textContent = student.location;
 })
 
