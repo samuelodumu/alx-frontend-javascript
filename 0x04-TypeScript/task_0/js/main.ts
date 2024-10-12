@@ -9,14 +9,14 @@ const student1: Student = {
     firstname: "Xaden",
     lastname: "Riorson",
     age: 25,
-    location: "Basgiath"
+    location: "Basgiath war college"
 }
 
 const student2: Student = {
     firstname: "Violet",
     lastname: "Sorrengail",
     age: 19,
-    location: "Basgiath"
+    location: "Basgiath war college"
 }
 
 const studentList = [student1, student2]
